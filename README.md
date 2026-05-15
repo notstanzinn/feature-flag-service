@@ -81,8 +81,7 @@ FlagForge is designed with industry requirements in mind:
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd final-project
+git clone https://github.com/notstanzinn/feature-flag-service
 ```
 
 2. Install backend dependencies:
@@ -148,35 +147,5 @@ final-project/
 └── README.md
 ```
 
-## API Endpoints
 
-### Authentication
-- `POST /api/auth/register` - Register new user
-- `POST /api/auth/login` - Login user
-- `GET /api/auth/me` - Get current user
-
-### Organizations
-- `GET /api/organizations` - List user organizations
-- `POST /api/organizations` - Create organization
-
-### Projects
-- `GET /api/projects` - List projects
-- `POST /api/projects` - Create project
-- `DELETE /api/projects/:id` - Delete project
-
-### Environments
-- `GET /api/environments` - List environments
-- `POST /api/environments` - Create environment
-
-### Feature Flags
-- `GET /api/flags` - List flags
-- `POST /api/flags` - Create flag
-- `PUT /api/flags/:id` - Update flag
-- `DELETE /api/flags/:id` - Delete flag
-
-### Flag Evaluation
-- `POST /api/eval/evaluate` - Evaluate flag status
-
-## License
-
-MIT
+## Author : **notstanzinn**
